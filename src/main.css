@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  background: #f3f6fd;
+  padding: 30px;
+}
+
+.component.component1 {
+  background: #fff;
+  padding: 80px;
+  border-radius: 15px;
+  max-width: 950px;
+  display: flex;
+  align-items: center;
+}
+.component.component1 > img {
+  margin-right: 40px;
+  width: 302px;
+  height: 231px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.component.component1 .content-right {
+  height: 231px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.component.component1 h3 {
+  font-size: 32px;
+}
+.component.component1 .author {
+  font-size: 18px;
+  color: #1a1b38;
+}
+.component.component1 .author a {
+  color: #5b60ed;
+  text-decoration: underline;
+}
+.component.component1 .actions {
+  display: flex;
+  margin: 0 -7px;
+}
+.component.component1 .actions a {
+  height: 63px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #d4dbee;
+  border-radius: 3px;
+  margin: 0 7px;
+  font-size: 18px;
+  color: #585971;
+  justify-content: center;
+  padding: 0 30px;
+  white-space: nowrap;
+}
+.component.component1 .actions a:hover {
+  border-color: #5b60ed;
+  color: #5b60ed;
+}
+.component.component1 .actions a:hover svg path {
+  stroke: #5b60ed;
+}
+.component.component1 .actions a img,
+.component.component1 .actions a svg {
+  margin-right: 10px;
+}
+.component.component2 {
+  background: #fff;
+  padding: 50px 60px 60px 60px;
+  border-radius: 15px;
+  max-width: 390px;
+}
+.component.component2 h3 {
+  font-size: 24px;
+  padding-bottom: 25px;
+}
+.component.component2 ul li {
+  padding-bottom: 15px;
+}
+.component.component2 ul li.button {
+  padding-top: 35px;
+}
+.component.component2 ul li button[type=submit] {
+  height: 63px;
+  border-radius: 3px;
+  background: #5b60ed;
+  width: 100%;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+}
+.component.component2 ul li button[type=submit]:hover {
+  opacity: 0.9;
+}
+.component.component2 ul li:last-child {
+  padding-bottom: 0;
+}
+.component.component2 ul li .radio {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+.component.component2 ul li .radio .cb {
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  border-radius: 50%;
+  border: 1px solid #d4dbee;
+  position: relative;
+}
+.component.component2 ul li .radio .cb::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #5b60ed;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.component.component2 ul li .radio:hover .cb {
+  border-color: #5b60ed;
+}
+.component.component2 ul li .radio input {
+  display: none;
+}
+.component.component2 ul li .radio input:checked + .cb {
+  border-color: #5b60ed;
+}
+.component.component2 ul li .radio input:checked + .cb::before {
+  display: block;
+}
+.component.component3 {
+  background: #fff;
+  padding: 55px 60px 65px 60px;
+  border-radius: 15px;
+  max-width: 510px;
+}
+.component.component3 h3 {
+  font-size: 24px;
+  padding-bottom: 25px;
+}
+.component.component3 .keywords {
+  display: flex;
+  flex-wrap: wrap;
+}
+.component.component3 .keywords a {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 38px;
+  display: flex;
+  padding: 0 20px;
+  border-radius: 3px;
+  align-items: center;
+  font-size: 14px;
+  color: #585971;
+  border: 1px solid #d4dbee;
+}
+.component.component3 .keywords a:hover {
+  border-color: #5b60ed;
+  color: #5b60ed;
+}
+.component.component3 .keywords a.view-all {
+  background: #f3f6fd;
+  border-color: #f3f6fd;
+  color: #5b60ed;
+}
+.component.component3 .keywords a.view-all img {
+  margin-left: 5px;
+}
+.component.component3 .stock-details {
+  margin-top: 40px;
+  padding-top: 50px;
+  display: flex;
+  border-top: 1px solid #d4dbee;
+}
+.component.component3 .stock-details li {
+  flex: 1;
+  font-size: 16px;
+  color: #585971;
+}
+.component.component3 .stock-details li label {
+  padding-bottom: 12px;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.divider {
+  height: 50px;
+}/*# sourceMappingURL=main.css.map */
